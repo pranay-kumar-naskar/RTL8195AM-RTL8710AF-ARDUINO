@@ -11,7 +11,7 @@ int keyIndex = 0;            // your network key Index number (needed only for W
 // Name of the server we want to connect to
 const char kHostname[] = "maker.ifttt.com";
 
-const char kPath[] = "/trigger/test_ev/with/key/JfprrBS0dMWv6cZ0DksQQ";
+const char kPath[] = "/trigger/test_event/with/key/JfprrBS0dMWv6cZ0DksQQ";
 // Number of milliseconds to wait without receiving any data before we give up
 const int kNetworkTimeout = 30*1000;
 // Number of milliseconds to wait if no data is available before trying again
