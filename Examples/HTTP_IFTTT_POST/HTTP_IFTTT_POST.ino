@@ -4,14 +4,14 @@
 
 // This example downloads the URL "http://www.amebaiot.com"
 
-char ssid[] = "Kalpavriksham"; //  your network SSID (name) 
-char pass[] = "123456890";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "Your_Network_SSID"; //  your network SSID (name) 
+char pass[] = "Your_Password";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 // Name of the server we want to connect to
 const char kHostname[] = "maker.ifttt.com";
 
-const char kPath[] = "/trigger/test_event/with/key/JfprrBS0dMWv6cZ0DksQQ";
+const char kPath[] = "/trigger/'Your_Event_Name'/with/key/'Your_Key'";
 // Number of milliseconds to wait without receiving any data before we give up
 const int kNetworkTimeout = 30*1000;
 // Number of milliseconds to wait if no data is available before trying again
