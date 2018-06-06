@@ -15,8 +15,8 @@
 
 // Update these with values suitable for your network.
 
-char ssid[] = "IOT_MERCURY_59E0";     // your network SSID (name)
-char pass[] = "1234567890";  // your network password
+char ssid[] = "YourNetwork";     // your network SSID (name)
+char pass[] = "Password";  // your network password
 int status  = WL_IDLE_STATUS;    // the Wifi radio's status
 
 char mqttServer[] = "iot.eclipse.org";
