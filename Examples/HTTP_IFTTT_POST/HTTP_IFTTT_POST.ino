@@ -2,8 +2,6 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 
-// This example downloads the URL "http://www.amebaiot.com"
-
 char ssid[] = "Your_Network_SSID"; //  your network SSID (name) 
 char pass[] = "Your_Password";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
